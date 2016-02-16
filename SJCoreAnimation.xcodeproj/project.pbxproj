@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09208ADA1C62ED1500734611 /* SJCoreAnimation_CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09208AD91C62ED1500734611 /* SJCoreAnimation_CustomLayer.m */; };
+		09208ADD1C62ED3100734611 /* CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09208ADC1C62ED3100734611 /* CustomLayer.m */; };
+		092C84B01C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C84AF1C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.m */; };
 		09702EDE1C5F49590081838C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702EDD1C5F49590081838C /* main.m */; };
 		09702EE11C5F49590081838C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702EE01C5F49590081838C /* AppDelegate.m */; };
 		09702EE41C5F49590081838C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702EE31C5F49590081838C /* ViewController.m */; };
@@ -15,6 +18,17 @@
 		09702EEC1C5F49590081838C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09702EEA1C5F49590081838C /* LaunchScreen.storyboard */; };
 		09702EF71C5F495A0081838C /* SJCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702EF61C5F495A0081838C /* SJCoreAnimationTests.m */; };
 		09702F021C5F495A0081838C /* SJCoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702F011C5F495A0081838C /* SJCoreAnimationUITests.m */; };
+		09702F161C5F4E060081838C /* haed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09702F151C5F4E060081838C /* haed.jpg */; };
+		09702F1A1C5F507B0081838C /* SJCoreAnimation_LayerBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702F181C5F507A0081838C /* SJCoreAnimation_LayerBasic.m */; };
+		09702F1B1C5F507B0081838C /* SJCoreAnimation_LayerBasic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09702F191C5F507A0081838C /* SJCoreAnimation_LayerBasic.xib */; };
+		097CCA131C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 097CCA121C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.m */; };
+		09FE88291C72B8DB00625770 /* SJItemsTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE88281C72B8DB00625770 /* SJItemsTab.m */; };
+		09FE882C1C72BA4A00625770 /* SJCAAnimation_WeiYi.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE882B1C72BA4A00625770 /* SJCAAnimation_WeiYi.m */; };
+		09FE882F1C72BB0700625770 /* SJCAAnimation_SuoFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE882E1C72BB0700625770 /* SJCAAnimation_SuoFang.m */; };
+		09FE88321C72BB7200625770 /* SJCAAnimation_TouMingDu.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE88311C72BB7200625770 /* SJCAAnimation_TouMingDu.m */; };
+		09FE88351C72BBF800625770 /* SJCAAnimation_XuanZhuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE88341C72BBF800625770 /* SJCAAnimation_XuanZhuan.m */; };
+		09FE88381C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE88371C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.m */; };
+		09FE883B1C72CD5500625770 /* SJCAAnimation_RectRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE883A1C72CD5500625770 /* SJCAAnimation_RectRun.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09208AD81C62ED1500734611 /* SJCoreAnimation_CustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCoreAnimation_CustomLayer.h; sourceTree = "<group>"; };
+		09208AD91C62ED1500734611 /* SJCoreAnimation_CustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCoreAnimation_CustomLayer.m; sourceTree = "<group>"; };
+		09208ADB1C62ED3100734611 /* CustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayer.h; sourceTree = "<group>"; };
+		09208ADC1C62ED3100734611 /* CustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayer.m; sourceTree = "<group>"; };
+		092C84AE1C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCoreAnimation_AnchorPoint.h; sourceTree = "<group>"; };
+		092C84AF1C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCoreAnimation_AnchorPoint.m; sourceTree = "<group>"; };
 		09702ED91C5F49590081838C /* SJCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09702EDD1C5F49590081838C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09702EDF1C5F49590081838C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,26 @@
 		09702EFD1C5F495A0081838C /* SJCoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJCoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09702F011C5F495A0081838C /* SJCoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJCoreAnimationUITests.m; sourceTree = "<group>"; };
 		09702F031C5F495A0081838C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09702F151C5F4E060081838C /* haed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haed.jpg; sourceTree = "<group>"; };
+		09702F171C5F507A0081838C /* SJCoreAnimation_LayerBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCoreAnimation_LayerBasic.h; sourceTree = "<group>"; };
+		09702F181C5F507A0081838C /* SJCoreAnimation_LayerBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCoreAnimation_LayerBasic.m; sourceTree = "<group>"; };
+		09702F191C5F507A0081838C /* SJCoreAnimation_LayerBasic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJCoreAnimation_LayerBasic.xib; sourceTree = "<group>"; };
+		097CCA111C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCoreAnimationHiddenAnimation.h; sourceTree = "<group>"; };
+		097CCA121C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCoreAnimationHiddenAnimation.m; sourceTree = "<group>"; };
+		09FE88271C72B8DB00625770 /* SJItemsTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJItemsTab.h; sourceTree = "<group>"; };
+		09FE88281C72B8DB00625770 /* SJItemsTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJItemsTab.m; sourceTree = "<group>"; };
+		09FE882A1C72BA4A00625770 /* SJCAAnimation_WeiYi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_WeiYi.h; sourceTree = "<group>"; };
+		09FE882B1C72BA4A00625770 /* SJCAAnimation_WeiYi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_WeiYi.m; sourceTree = "<group>"; };
+		09FE882D1C72BB0700625770 /* SJCAAnimation_SuoFang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_SuoFang.h; sourceTree = "<group>"; };
+		09FE882E1C72BB0700625770 /* SJCAAnimation_SuoFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_SuoFang.m; sourceTree = "<group>"; };
+		09FE88301C72BB7200625770 /* SJCAAnimation_TouMingDu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_TouMingDu.h; sourceTree = "<group>"; };
+		09FE88311C72BB7200625770 /* SJCAAnimation_TouMingDu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_TouMingDu.m; sourceTree = "<group>"; };
+		09FE88331C72BBF800625770 /* SJCAAnimation_XuanZhuan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_XuanZhuan.h; sourceTree = "<group>"; };
+		09FE88341C72BBF800625770 /* SJCAAnimation_XuanZhuan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_XuanZhuan.m; sourceTree = "<group>"; };
+		09FE88361C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_ZuHeAnimation.h; sourceTree = "<group>"; };
+		09FE88371C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_ZuHeAnimation.m; sourceTree = "<group>"; };
+		09FE88391C72CD5500625770 /* SJCAAnimation_RectRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCAAnimation_RectRun.h; sourceTree = "<group>"; };
+		09FE883A1C72CD5500625770 /* SJCAAnimation_RectRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCAAnimation_RectRun.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091FDF4C1C7182A100629A42 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				09FE88271C72B8DB00625770 /* SJItemsTab.h */,
+				09FE88281C72B8DB00625770 /* SJItemsTab.m */,
+				09FE882A1C72BA4A00625770 /* SJCAAnimation_WeiYi.h */,
+				09FE882B1C72BA4A00625770 /* SJCAAnimation_WeiYi.m */,
+				09FE882D1C72BB0700625770 /* SJCAAnimation_SuoFang.h */,
+				09FE882E1C72BB0700625770 /* SJCAAnimation_SuoFang.m */,
+				09FE88301C72BB7200625770 /* SJCAAnimation_TouMingDu.h */,
+				09FE88311C72BB7200625770 /* SJCAAnimation_TouMingDu.m */,
+				09FE88331C72BBF800625770 /* SJCAAnimation_XuanZhuan.h */,
+				09FE88341C72BBF800625770 /* SJCAAnimation_XuanZhuan.m */,
+				09FE88361C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.h */,
+				09FE88371C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.m */,
+				09FE88391C72CD5500625770 /* SJCAAnimation_RectRun.h */,
+				09FE883A1C72CD5500625770 /* SJCAAnimation_RectRun.m */,
+			);
+			name = CAAnimation;
+			sourceTree = "<group>";
+		};
+		09208AD71C62ECD700734611 /* CustomLayer */ = {
+			isa = PBXGroup;
+			children = (
+				09208AD81C62ED1500734611 /* SJCoreAnimation_CustomLayer.h */,
+				09208AD91C62ED1500734611 /* SJCoreAnimation_CustomLayer.m */,
+				09208ADB1C62ED3100734611 /* CustomLayer.h */,
+				09208ADC1C62ED3100734611 /* CustomLayer.m */,
+			);
+			name = CustomLayer;
+			sourceTree = "<group>";
+		};
 		09702ED01C5F49590081838C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +173,7 @@
 		09702EDB1C5F49590081838C /* SJCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				09702F0F1C5F4CF80081838C /* Classes */,
 				09702EDF1C5F49590081838C /* AppDelegate.h */,
 				09702EE01C5F49590081838C /* AppDelegate.m */,
 				09702EE21C5F49590081838C /* ViewController.h */,
@@ -138,6 +211,47 @@
 				09702F031C5F495A0081838C /* Info.plist */,
 			);
 			path = SJCoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		09702F0F1C5F4CF80081838C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				091FDF4C1C7182A100629A42 /* CAAnimation */,
+				09208AD71C62ECD700734611 /* CustomLayer */,
+				097CCA101C61AC3200E0E407 /* HiddenAnimation */,
+				097CCA0F1C61A87B00E0E407 /* AnchorPoint */,
+				097CCA0E1C61A86200E0E407 /* Basic */,
+				09702F151C5F4E060081838C /* haed.jpg */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		097CCA0E1C61A86200E0E407 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				09702F171C5F507A0081838C /* SJCoreAnimation_LayerBasic.h */,
+				09702F181C5F507A0081838C /* SJCoreAnimation_LayerBasic.m */,
+				09702F191C5F507A0081838C /* SJCoreAnimation_LayerBasic.xib */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		097CCA0F1C61A87B00E0E407 /* AnchorPoint */ = {
+			isa = PBXGroup;
+			children = (
+				092C84AE1C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.h */,
+				092C84AF1C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.m */,
+			);
+			name = AnchorPoint;
+			sourceTree = "<group>";
+		};
+		097CCA101C61AC3200E0E407 /* HiddenAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				097CCA111C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.h */,
+				097CCA121C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.m */,
+			);
+			name = HiddenAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +316,7 @@
 		09702ED11C5F49590081838C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SPIREJ;
 				TargetAttributes = {
@@ -243,7 +358,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09702F161C5F4E060081838C /* haed.jpg in Resources */,
 				09702EEC1C5F49590081838C /* LaunchScreen.storyboard in Resources */,
+				09702F1B1C5F507B0081838C /* SJCoreAnimation_LayerBasic.xib in Resources */,
 				09702EE91C5F49590081838C /* Assets.xcassets in Resources */,
 				09702EE71C5F49590081838C /* Main.storyboard in Resources */,
 			);
@@ -270,9 +387,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09208ADD1C62ED3100734611 /* CustomLayer.m in Sources */,
+				097CCA131C61AC6D00E0E407 /* SJCoreAnimationHiddenAnimation.m in Sources */,
 				09702EE41C5F49590081838C /* ViewController.m in Sources */,
+				09FE88291C72B8DB00625770 /* SJItemsTab.m in Sources */,
+				092C84B01C605E8E0059B3FA /* SJCoreAnimation_AnchorPoint.m in Sources */,
+				09FE883B1C72CD5500625770 /* SJCAAnimation_RectRun.m in Sources */,
+				09FE88321C72BB7200625770 /* SJCAAnimation_TouMingDu.m in Sources */,
+				09FE882F1C72BB0700625770 /* SJCAAnimation_SuoFang.m in Sources */,
 				09702EE11C5F49590081838C /* AppDelegate.m in Sources */,
 				09702EDE1C5F49590081838C /* main.m in Sources */,
+				09702F1A1C5F507B0081838C /* SJCoreAnimation_LayerBasic.m in Sources */,
+				09208ADA1C62ED1500734611 /* SJCoreAnimation_CustomLayer.m in Sources */,
+				09FE88381C72BFA700625770 /* SJCAAnimation_ZuHeAnimation.m in Sources */,
+				09FE882C1C72BA4A00625770 /* SJCAAnimation_WeiYi.m in Sources */,
+				09FE88351C72BBF800625770 /* SJCAAnimation_XuanZhuan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +627,7 @@
 				09702F081C5F495A0081838C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09702F091C5F495A0081838C /* Build configuration list for PBXNativeTarget "SJCoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +636,7 @@
 				09702F0B1C5F495A0081838C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09702F0C1C5F495A0081838C /* Build configuration list for PBXNativeTarget "SJCoreAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +645,7 @@
 				09702F0E1C5F495A0081838C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

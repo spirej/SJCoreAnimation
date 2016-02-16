@@ -1,19 +1,20 @@
 //
-//  ViewController.m
+//  SJItemsTab.m
 //  SJCoreAnimation
 //
-//  Created by SPIREJ on 16/2/1.
+//  Created by SPIREJ on 16/2/16.
 //  Copyright © 2016年 SPIREJ. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "SJCoreAnimation_LayerBasic.h"
-#import "SJCoreAnimation_AnchorPoint.h"
-#import "SJCoreAnimationHiddenAnimation.h"
-#import "SJCoreAnimation_CustomLayer.h"
 #import "SJItemsTab.h"
+#import "SJCAAnimation_WeiYi.h"
+#import "SJCAAnimation_SuoFang.h"
+#import "SJCAAnimation_TouMingDu.h"
+#import "SJCAAnimation_XuanZhuan.h"
+#import "SJCAAnimation_ZuHeAnimation.h"
+#import "SJCAAnimation_RectRun.h"
 
-@interface ViewController ()
+@interface SJItemsTab ()
 
 @end
 
@@ -21,17 +22,17 @@
 #define kDeviceHeight  [UIScreen mainScreen].bounds.size.height
 #define cellHeight 70
 
-#define kLabelTitles @[@"1- CoreAnimation基础知识",@"2- 锚点",@"3- 隐式动画",@"4- 自定义图层",@"5- CAAnimation"]
-#define kDetialLabelText @[@"SJCoreAnimation_LayerBasic.h",@"SJCoreAnimation_AnchorPoint.h",@"SJCoreAnimationHiddenAnimation.h",@"SJCoreAnimation_CustomLayer.h",@"SJItemsTab.h"]
+#define kLabelTitles @[@"1- 位移",@"2- 缩放",@"3- 透明度",@"4- 旋转",@"5- 组合动画",@"6- 绕矩形环跑"]
+#define kDetialLabelText @[@"SJCAAnimation_WeiYi.h",@"SJCAAnimation_SuoFang.h",@"SJCAAnimation_TouMingDu.h",@"SJCAAnimation_XuanZhuan.h",@"SJCAAnimation_ZuHeAnimation.h",@"SJCAAnimation_RectRun.h"]
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface SJItemsTab ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, strong) UITableView *tableView;
 @property(nonatomic, copy)NSMutableArray *labelTextArray;
 @property(nonatomic, copy)NSMutableArray *DetailLabelTextArray;
 
 @end
 
-@implementation ViewController
+@implementation SJItemsTab
 
 - (UITableView *)tableView{
     if (!_tableView) {
@@ -94,32 +95,38 @@
     switch (indexPath.row) {
         case 0:
         {
-            SJCoreAnimation_LayerBasic *basicVC = [[SJCoreAnimation_LayerBasic alloc] init];
-            [self.navigationController pushViewController:basicVC animated:YES];
+            SJCAAnimation_WeiYi *weiyiVC = [[SJCAAnimation_WeiYi alloc] init];
+            [self.navigationController pushViewController:weiyiVC animated:YES];
         }
             break;
         case 1:
         {
-            SJCoreAnimation_AnchorPoint *anchorPointVC = [[SJCoreAnimation_AnchorPoint alloc] init];
-            [self.navigationController pushViewController:anchorPointVC animated:YES];
+            SJCAAnimation_SuoFang *suofangVC = [[SJCAAnimation_SuoFang alloc] init];
+            [self.navigationController pushViewController:suofangVC animated:YES];
         }
             break;
         case 2:
         {
-            SJCoreAnimationHiddenAnimation *hiddenAnimation = [[SJCoreAnimationHiddenAnimation alloc] init];
-            [self.navigationController pushViewController:hiddenAnimation animated:YES];
+            SJCAAnimation_TouMingDu *toumingduVC = [[SJCAAnimation_TouMingDu alloc] init];
+            [self.navigationController pushViewController:toumingduVC animated:YES];
         }
             break;
         case 3:
         {
-            SJCoreAnimation_CustomLayer *customLayerVC = [[SJCoreAnimation_CustomLayer alloc] init];
-            [self.navigationController pushViewController:customLayerVC animated:YES];
+            SJCAAnimation_XuanZhuan *xuanzhuanVC = [[SJCAAnimation_XuanZhuan alloc] init];
+            [self.navigationController pushViewController:xuanzhuanVC animated:YES];
         }
             break;
         case 4:
         {
-            SJItemsTab *itemsTab = [[SJItemsTab alloc] init];
-            [self.navigationController pushViewController:itemsTab animated:YES];
+            SJCAAnimation_ZuHeAnimation *zuheVC = [[SJCAAnimation_ZuHeAnimation alloc] init];
+            [self.navigationController pushViewController:zuheVC animated:YES];
+        }
+            break;
+        case 5:
+        {
+            SJCAAnimation_RectRun *rectRun = [[SJCAAnimation_RectRun alloc] init];
+            [self.navigationController pushViewController:rectRun animated:YES];
         }
             break;
         default:
