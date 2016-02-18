@@ -97,6 +97,42 @@
     rectRunAnimation.repeatDuration = 4;
     //添加动画
     [self.layer addAnimation:rectRunAnimation forKey:@"rectRunAnimation"];
+    
+    /**
+     CAKeyFrameAnimation的使用中有以下主要的属性需要注意
+     （1）values属性
+     
+     values属性指明整个动画过程中的关键帧点，例如上例中的A-E就是通过values指定的。需要注意的是，起点必须作为values的第一个值。
+     
+     （2）path属性
+     
+     作用与values属性一样，同样是用于指定整个动画所经过的路径的。需要注意的是，values与path是互斥的，当values与path同时指定时，path会覆盖values，即values属性将被忽略。例如上述pathAnimation例子
+     
+     （3）keyTimes属性
+     
+     该属性是一个数组，用以指定每个子路径(AB,BC,CD)的时间。如果你没有显式地对keyTimes进行设置，则系统会默认每条子路径的时间为：ti=duration/(5-1)，即每条子路径的duration相等，都为duration的1\4。当然，我们也可以传个数组让物体快慢结合。例如，你可以传入{0.0, 0.1,0.6,0.7,1.0}，其中首尾必须分别是0和1，因此tAB=0.1-0, tCB=0.6-0.1, tDC=0.7-0.6, tED=1-0.7.....
+     
+     （4）timeFunctions属性
+     
+     用过UIKit层动画的同学应该对这个属性不陌生，这个属性用以指定时间函数，类似于运动的加速度，有以下几种类型。上例子的AB段就是用了淡入淡出效果。记住，这是一个数组，你有几个子路径就应该传入几个元素
+     
+     1 kCAMediaTimingFunctionLinear//线性
+     2 kCAMediaTimingFunctionEaseIn//淡入
+     3 kCAMediaTimingFunctionEaseOut//淡出
+     4 kCAMediaTimingFunctionEaseInEaseOut//淡入淡出
+     5 kCAMediaTimingFunctionDefault//默认
+     
+     （5）calculationMode属性
+     
+     该属性决定了物体在每个子路径下是跳着走还是匀速走，跟timeFunctions属性有点类似
+     
+     1 const kCAAnimationLinear//线性，默认
+     2 const kCAAnimationDiscrete//离散，无中间过程，但keyTimes设置的时间依旧生效，物体跳跃地出现在各个关键帧上
+     3 const kCAAnimationPaced//平均，keyTimes跟timeFunctions失效
+     4 const kCAAnimationCubic//平均，同上
+     5 const kCAAnimationCubicPaced//平均，同上
+     
+     */
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
